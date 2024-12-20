@@ -110,3 +110,7 @@ img{
     line-height: 18.75px;
     color: #808080;
 }
+.foot_logo img{
+    margin-top: 0;
+    margin-bottom: 0;
+}
