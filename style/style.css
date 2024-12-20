@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   max-width: 1140px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+.nav{
+    background-color: #fff;
+}
+.nav_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav_link{
+    text-decoration: none;
+    color: #8C8A8A;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+}
+.nav_logo{
+    margin-bottom: 79px;
+    margin-top: 50px;
+} 
+img{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin: 30px auto;
+}
+.sec_box{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+.sec_left{
+    max-width: 730px;
+    width: 100%;
+    background: #F0F0F0;
+    padding: 50px 95px 50px 40px;
+}
+.sec_right{
+    max-width: 350px;
+    width: 100%;
+    background: #F0F0F0;
+    padding-top: 50px;
+    padding-right: 24px;
+    padding-left: 40px;
+}
+.sec_title{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    color: #4581B7;
+    margin-bottom: 25px;
+}
+.sec_text{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #808080;
+}
+.sec_link{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;  
+    color: #808080;
+}
+.sec_list{
+    list-style: none;
+}
+.foot_box{
+    background: #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding: 15px 40px;
+}
+.foot_list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.foot_link{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #808080;
+}
