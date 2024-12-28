@@ -31,10 +31,7 @@
     margin-bottom: 79px;
     margin-top: 50px;
 } 
-img{
-    display: flex;
-    justify-self: center;
-    align-self: center;
+.intro{
     margin: 30px auto;
 }
 .sec_box{
