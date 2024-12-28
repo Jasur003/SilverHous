@@ -110,3 +110,15 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+.menu,
+.close{
+    cursor: pointer;
+    display: none;
+}
+.menu img,
+.close img{
+    width: 30px;
+}
+#checkbox{
+    display: none;
+}

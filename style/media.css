@@ -1,22 +1,223 @@
 
 @media(max-width: 1140px) {
+    .nav_logo{
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
     .sec_box{
         gap: 30px;
-    }
-    img{
-        max-width: 1110px;
-        width: 100%;
-    }
-}
-@media(max-width:900px) {
-    .sec_box{
         flex-direction: column;
         align-items: center;
     }
+    img{
+        width: 100%;
+    }
     .sec_left{
         max-width: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 45px 25px 20px;
     }
     .sec_right{
         max-width: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 25px;
+        padding-left: 20px;
+        padding-right: 12px;
+    }
+    .sec_title{
+        margin-bottom: 13px;
+    }
+    .sec_link{
+        margin: 15px;
+    }
+}
+@media(max-width:800px) {
+    .nav_box{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav_logo{
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .intro{
+        margin: 25px auto;
+    }
+    .sec_box{
+        gap: 25px;
+    }
+    .sec_left{
+        padding: 20px 40px 20px 15px;
+    }
+    .sec_right{
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+    .sec_title{
+        font-size: 18px;
+        line-height:22px;
+        margin-bottom: 10px;
+    }
+    .sec_text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .sec_link{
+        font-size: 15px;
+        line-height: 25px;
+        margin: 13px; 
+    }
+    .foot_link{
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .menu{
+        display: block;
+    }
+    .close{
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+    .nav_list{
+        flex-direction: column;
+        position: fixed;
+        background-color: #F0F0F0;
+        top: 0;
+        right: 0;
+        padding: 50px;
+        text-align: center;
+        height: 100%;
+        transform: translateX(100%);
+    }
+    .nav_link{
+        transition: 0.3s;
+    }
+    .nav_link:hover {
+        color: #D47300;
+    }
+    #checkbox:checked~.nav_list{
+        transform: translateX(0);
+    }
+    .foot{
+        margin-top: 25px;
+    }
+    .foot_box{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .foot_list{
+        align-items: center;
+    }
+}
+@media(max-width:600px) {
+    .intro{
+        margin: 20px auto;
+    }
+    .sec_box{
+        gap: 20px;
+    }
+    .sec_left{
+        padding: 15px 30px 15px 10px;
+    }
+    .sec_right{
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 8px;
+    }
+    .sec_title{
+        font-size: 17px;
+        line-height:20px;
+    }
+    .sec_text{
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .sec_link{
+        font-size: 14px;
+        line-height: 23px;
+        margin: 11px;
+    } 
+    .foot{
+        margin-top: 20px;
+    }
+    .foot_box{
+        gap: 15px;
+    }
+    .foot_link{ 
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+@media(max-width:500px) {
+    .intro{
+        margin: 15px auto;
+    }
+    .sec_box{
+        gap: 15px;
+    }
+    .sec_title{
+        font-size: 16px;
+        line-height:18px;
+    }
+    .sec_text{
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .sec_link{
+        font-size: 13px;
+        line-height: 21px;
+        margin: 10px;
+    }
+    .foot{
+        margin-top: 15px;
+    }
+    .foot_link{
+        font-size: 13px;
+        line-height: 13px;
+    }
+}
+@media(max-width:400px) {
+    .intro{
+        margin: 10px auto;
+    }
+    .sec_box{
+        gap: 10px;
+    }
+    .sec_left{
+        padding: 10px 20px 10px 8px;
+    }
+    .sec_right{
+        padding-top: 12px;
+        padding-left: 10px;
+        padding-right: 8px;
+    }
+    .sec_title{
+        font-size: 15px;
+        line-height:17px;
+    }
+    .sec_text{
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .sec_link{
+        font-size: 12px;
+        line-height: 19px; 
+    }
+    .foot{
+        margin-top: 10px;
+    }
+    .foot_box{
+        gap: 10px;
+    }
+    .foot_link{
+        font-size: 12px;
+        line-height: 12px;
     }
 }
