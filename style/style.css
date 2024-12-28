@@ -9,9 +9,6 @@
    margin: 0 auto;
    padding: 0 15px;
 }
-.nav{
-    background-color: #fff;
-}
 .nav_box{
     display: flex;
     flex-direction: column;
@@ -43,7 +40,6 @@ img{
 .sec_box{
     display: flex;
     justify-content: space-between;
-    margin: 30px auto;
 }
 .sec_left{
     max-width: 730px;
@@ -87,6 +83,9 @@ img{
 }
 .sec_list{
     list-style: none;
+}
+.foot{
+    margin-top: 30px;
 }
 .foot_box{
     background: #F0F0F0;
