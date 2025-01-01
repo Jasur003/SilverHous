@@ -7,6 +7,9 @@
         margin-top: 40px;
         margin-bottom: 25px;
     }
+    .nav_logo img{
+        width: 110px;
+    }
     .sec_box{
         gap: 30px;
         flex-direction: column;
@@ -37,6 +40,17 @@
     .sec_link{
         margin: 15px;
     }
+    .foot_logo img{
+        height: 110px;
+    }
+}
+@media(max-width:1000px) {
+    .nav_logo img{
+        width: 100px;
+    }
+    .foot_logo img{
+        height: 100px;
+    }
 }
 @media(max-width:800px) {
     .nav_box{
@@ -46,6 +60,9 @@
     .nav_logo{
         margin-top: 10px;
         margin-bottom: 0;
+    }
+    .nav_logo img{
+        width: 80px;
     }
     .intro{
         margin: 25px auto;
@@ -118,13 +135,24 @@
         flex-direction: column;
         gap: 20px;
     }
+    .foot_logo img{
+        height: 80px;
+    }
     .foot_list{
         align-items: center;
     }
 }
 @media(max-width:600px) {
+    .nav_logo img{
+        width: 60px;
+    }
+    .menu img,
+    .close img{
+    width: 25px;
+    }
     .nav_list{
-        gap: 15px;
+        padding: 40px;
+        gap: 20px;
     }
     .intro{
         margin: 20px auto;
@@ -159,12 +187,18 @@
     .foot_box{
         gap: 15px;
     }
+    .foot_logo img{
+       height: 60px;
+    }
     .foot_link{ 
         font-size: 14px;
         line-height: 15px;
     }
 }
 @media(max-width:500px) {
+    .nav_logo img{
+        width: 50px;
+    }
     .intro{
         margin: 15px auto;
     }
@@ -187,12 +221,12 @@
     .foot{
         margin-top: 15px;
     }
+    .foot_logo img{
+        height: 50px;
+    }
     .foot_link{
         font-size: 13px;
         line-height: 14px;
-    }
-    .nav_list{
-        gap: 10px;
     }
     .nav_link{
         font-size: 15px;
@@ -200,6 +234,17 @@
     }
 }
 @media(max-width:400px) {
+    .nav_logo img{
+        width: 40px;
+    }
+    .menu img,
+    .close img{
+    width: 20px;
+    }
+    .nav_list{
+        padding: 35px;
+        gap: 15px;
+    }
     .intro{
         margin: 10px auto;
     }
@@ -231,6 +276,9 @@
     }
     .foot_box{
         gap: 10px;
+    }
+    .foot_logo img{
+        height: 40px;
     }
     .foot_link{
         font-size: 12px;
