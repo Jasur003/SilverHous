@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: navy;
-}
 .container{
    max-width: 1140px;
    width: 100%;
